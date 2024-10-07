@@ -42,7 +42,7 @@ rm -rf frameworks/base
 # cloning DT
 # device tree
 git clone https://github.com/dpenra-sunny/device_xiaomi_sunny.git --depth 1 -b fourteen device/xiaomi/sunny
-git clone https://github.com/dpenra-sunny/device_xiaomi_sunny-kernel.git --depth 1 -b fourteen device/xiaomi/sunny-kernel
+git clone https://github.com/dpenra-sunny-kernel/device_xiaomi_sunny-kernel.git --depth 1 -b fourteen device/xiaomi/sunny-kernel
 git clone https://github.com/AOSPA/android_device_qcom_qssi.git --depth 1 -b uvite device/qcom/qssi
 git clone https://github.com/yaap/device_qcom_common.git --depth 1 -b fourteen device/qcom/common
 # kernel tree
